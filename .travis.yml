@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+- 2.1
+script: jekyll build && htmlproof ./_site
+
+# branch whitelist
+branches:
+  only:
+  - gh-pages  # test the gh-pages branch
+  - /pages-(.*)/ # test every branch wich starts with "pages-"
+
+env: 
+  global:
+  - NOKOGIRL_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
