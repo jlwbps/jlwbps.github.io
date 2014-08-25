@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 source 'https://rubygems.org'
+=======
+>>>>>>> 0576203af8b44f65e8687a5fdb617be611eee3bc
 gem 'github-pages','22'
 gem 'jekyll','2.2.0'
 gem 'jekyll-coffeescript','1.0.0'
