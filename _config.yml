@@ -10,9 +10,6 @@ url: "http://jlwbps.github.io" # the base hostname & protocol for your site
 twitter_username: jlwestsr
 github_username:  jlwbps
 
-# highlighter
-highlighter: rouge
-
 # Build settings
 markdown: kramdown
 
